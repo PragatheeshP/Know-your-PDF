@@ -1,0 +1,40 @@
+# Environment & secrets
+.env
+API_KEY
+
+# Python 
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments 
+venv/
+.venv/
+env/
+
+# Qdrant local storage
+qdrant_storage/
+
+# Streamlit 
+.streamlit/secrets.toml
+
+# Uploaded / temp files 
+*.pdf
+tmp/
+temp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS 
+.DS_Store
+Thumbs.db
